@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+}
+
+/*myHead*/
+.ham{
+   display: none;
+}
+.myHead h2{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 90px;
+    color:#1598DB;
+    text-align: center;
+    margin-top: -160px;
+}
+
+@media screen and (max-width: 727px){
+    .cl-effect-6 a{
+        display: none;
+        padding:0 0 0 0;
+    }
+    .myHead h2{
+        margin-top: -220px;
+    }
+    .ham{
+        display: block;
+        font-size: 50px;
+        margin: -200px 0 0 20px;
+        color: #fff;
+    }
+}
